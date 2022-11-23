@@ -1,0 +1,248 @@
+{
+  "Products": {
+    "Createitem": {
+      "id": 1,
+      "description": "Create an item",
+      "price": 100,
+      "roles_added": [
+        "1025413696110993488"
+      ],
+      "use_reply": "Roles will be added"
+    },
+    "customrole": {
+      "id": 2,
+      "description": "Custom role",
+      "price": 100,
+      "roles_added": [
+        1025413696110993500
+      ],
+      "roles_removed": [],
+      "roles_required": [],
+      "roles_denied": [],
+      "use_reply": "Roles will be added"
+    },
+    "Emilescookies": {
+      "id": 3,
+      "description": "Emile's cookies",
+      "price": 100,
+      "roles_added": [
+        1025413696110993500
+      ],
+      "use_reply": "Roles will be added",
+      "stock_left": 0
+    },
+    "Khloesbiscuits": {
+      "id": 4,
+      "description": "Khloe's biscuits",
+      "price": 100,
+      "roles_added": [
+        1025413696110993500
+      ],
+      "use_reply": "Roles will be added"
+    },
+    "Emilecode": {
+      "id": 5,
+      "description": "The best IDE available on the market!",
+      "price": 200,
+      "roles_added": [],
+      "use_reply": "You can't use it because its for EmileOS only (the private version)"
+    },
+    "coolhat": {
+      "id": 6,
+      "description": "The coolest hat ever!",
+      "price": 200,
+      "roles_added": [],
+      "use_reply": "You are cool now",
+      "owner": "767041966549499925"
+    }
+  },
+  "Users": {
+    "767041966549499925": {
+      "tag": "emidblol#5919",
+      "Balance": 999923,
+      "Inventory": [
+        "Createitem",
+        "coolhat",
+        "coolhat",
+        "Emilescookies",
+        "Emilecode",
+        "Createitem",
+        "coolhat",
+        "Emilescookies"
+      ]
+    },
+    "735180930380988457": {
+      "tag": "AsianEvxn#4246",
+      "Balance": 157,
+      "Inventory": []
+    },
+    "709824726578757643": {
+      "tag": "JustAmr#0721",
+      "Balance": 9e+29,
+      "Inventory": []
+    },
+    "801536537036587048": {
+      "tag": "xOff_percs#8839",
+      "Balance": 936,
+      "Inventory": []
+    },
+    "700181826920251404": {
+      "tag": "daddy_dolphin#0118",
+      "Balance": 721,
+      "Inventory": []
+    },
+    "944176377064730686": {
+      "tag": "łêø#2413",
+      "Balance": 726,
+      "Inventory": []
+    },
+    "946913013129150474": {
+      "tag": "SmilesTheLeader#4332",
+      "Balance": 63,
+      "Inventory": []
+    },
+    "495899195937521689": {
+      "tag": "Jessxlord#4459",
+      "Balance": 177,
+      "Inventory": [
+        "customrole"
+      ]
+    },
+    "898025608423026729": {
+      "tag": "flawquote#2175",
+      "Balance": 60,
+      "Inventory": []
+    },
+    "829329195758911568": {
+      "tag": "iitxa#4296",
+      "Balance": 495,
+      "Inventory": []
+    },
+    "981901695128846387": {
+      "tag": "JustIlyas#0001",
+      "Balance": 45,
+      "Inventory": []
+    },
+    "834525430336716840": {
+      "tag": "Moet805#8512",
+      "Balance": 14,
+      "Inventory": []
+    },
+    "637800660875608085": {
+      "tag": "WonderBagus#0656",
+      "Balance": 269,
+      "Inventory": []
+    },
+    "998867802498805790": {
+      "tag": "Doge!#1074",
+      "Balance": 687,
+      "Inventory": [
+        "customrole"
+      ]
+    },
+    "546072067909615628": {
+      "tag": "aline <3#0001",
+      "Balance": 22,
+      "Inventory": []
+    },
+    "864473559837442059": {
+      "tag": "Joni53o2#6132",
+      "Balance": 473,
+      "Inventory": [
+        "Createitem"
+      ]
+    },
+    "894394233920827483": {
+      "tag": "BauxTemps#2377",
+      "Balance": 45,
+      "Inventory": []
+    }
+  },
+  "hints": [
+    "Earn money by chatting and concluding events!",
+    "if (faux.status === true) { console.warn(\"Faux is online!!\"); var Emile.happy = true }; ",
+    "Never gonna ____ you __",
+    "use ?buy to buy stuff",
+    "create your own items by getting the product and then run /createitem!",
+    "Doge wants a bone.",
+    "Doge says Bone apetit",
+    "Shadow has found the cheese!",
+    "Staff of the week = no quota",
+    "Work hard not smart",
+    "technoblade never dies!",
+    "throw new Error",
+    "boost = me happy",
+    "Amr, WAKE UP!!!",
+    "-shutdown",
+    "I'm a bot, not a human",
+    "I'm a human, not a bot",
+    "Who is the best bot?",
+    "Who is the best human?",
+    "if (!cat.alive) { cat.alive = true; cat.happy = true; }",
+    "I'm still standing",
+    "Get out of my room I am playing roblox!",
+    "Funny hints",
+    "you're*",
+    "Meow",
+    "Woof",
+    "boo"
+  ],
+  "products": {
+    "Createitem": {
+      "id": 1,
+      "description": "Create an item",
+      "price": 100,
+      "roles_added": [
+        "1025413696110993488"
+      ],
+      "use_reply": "Roles will be added"
+    },
+    "customrole": {
+      "id": 2,
+      "description": "Custom role",
+      "price": 100,
+      "roles_added": [
+        1025413696110993500
+      ],
+      "roles_removed": [],
+      "roles_required": [],
+      "roles_denied": [],
+      "use_reply": "Roles will be added"
+    },
+    "Emilescookies": {
+      "id": 3,
+      "description": "Emile's cookies",
+      "price": 100,
+      "roles_added": [
+        1025413696110993500
+      ],
+      "use_reply": "Roles will be added",
+      "stock_left": 0
+    },
+    "Khloesbiscuits": {
+      "id": 4,
+      "description": "Khloe's biscuits",
+      "price": 100,
+      "roles_added": [
+        1025413696110993500
+      ],
+      "use_reply": "Roles will be added"
+    },
+    "Emilecode": {
+      "id": 5,
+      "description": "The best IDE available on the market!",
+      "price": 200,
+      "roles_added": [],
+      "use_reply": "You can't use it because its for EmileOS only (the private version)",
+      "stock_left": 98645798456342
+    },
+    "coolhat": {
+      "id": 6,
+      "description": "The coolest hat ever!",
+      "price": 200,
+      "roles_added": [],
+      "use_reply": "You are cool now",
+      "owner": "767041966549499925"
+    }
+  }
+}
