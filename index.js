@@ -636,7 +636,7 @@
             }));
             const attachment = new Discord.MessageAttachment(im_res, im_res)
                 (s4dmessage.channel).send({
-                    content: (['Image result of prompt: `', String((s4dmessage.content)).replaceAll('?generate-image ', String('')), '`'].join(''))
+                    content: (['Image result of prompt: `', String((s4dmessage.content)).replaceAll('?generate-image ', String('')), '`'].join('')),
                     files: [attachment]
                 })
         }
