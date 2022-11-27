@@ -55,7 +55,10 @@
     };
 
     // check if d.js is v13
-    if (!require('./package.json').dependencies['discord.js'].includes("13.")) console.log("Seems you arent using v13 please run `npm i discord.js@13.12.0`");
+    if (!require('./package.json').dependencies['discord.js'].includes("13.")) throw new error("Seems you arent using v13 please run `npm i discord.js@13.12.0`");
+
+    // check if discord-logs is v2
+    if (!require('./package.json').dependencies['discord-logs'].startsWith("^2.")) throw new error("discord-logs must be 2.0.0. please run `npm i discord-logs@2.0.0`");
 
     // create a new discord client
     s4d.client = new s4d.Discord.Client({
@@ -394,7 +397,7 @@
                     .setPlaceholder('0'),
                     new TextInputComponent()
                     .setCustomId('ci_stock')
-                    .setLabel('The amount of how much you will sell (numbers only_)')
+                    .setLabel('How much stock (numbers only)')
                     .setStyle(('SHORT'))
                     .setMinLength()
                     .setMaxLength()
@@ -622,7 +625,7 @@
                 });
         } else if ((command || '').startsWith('?generate-image' || '')) {
             im_res = (await openai.createImage({
-                prompt: (String((s4dmessage.content)).replaceAll('?generate-image ', String(''))),
+                prompt: "(String((s4dmessage.content)).replaceAll('?generate-image ', String('')))",
                 n: 1,
                 size: "256x256",
                 response_format: "b64_json"
@@ -631,9 +634,9 @@
                 const image = Buffer.from(imageb64, "base64");
                 return image;
             }));
-            const attachment = new Discord.MessageAttachment(im_res)
-                s4dmessage.channel.send({
-                    content: (['Image result of prompt: `', String((s4dmessage.content)).replaceAll('?generate-image ', String('')), '`'].join('')),
+            const attachment = new Discord.MessageAttachment(im_res, im_res)
+                (s4dmessage.channel).send({
+                    content: (['Image result of prompt: `', String((s4dmessage.content)).replaceAll('?generate-image ', String('')), '`'].join(''))
                     files: [attachment]
                 })
         }
@@ -726,4 +729,4 @@
     });
 
     return s4d
-})()
+})();
