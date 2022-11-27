@@ -282,7 +282,7 @@
     });
 
     /* IMPORTED - S4D Website Hosting Dependencies */
-    let S4D_APP_WEBSITE_HOSTING_PORT = 8080
+    let S4D_APP_WEBSITE_HOSTING_PORT = 3456
 
     S4D_WEBSITECREATION_EXPRESS_app.use(S4D_WEBSITECREATION_cors());
     S4D_WEBSITECREATION_EXPRESS_app.use(S4D_WEBSITECREATION_bodyParser.urlencoded({
